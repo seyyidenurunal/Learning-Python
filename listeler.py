@@ -24,6 +24,8 @@ yeni_2 = pazar[:3]  # Üçüncü elemandan(çilek) önceki bütün elemanları a
 print(yeni_2)
 yeni_3 = pazar [1:8:2] #1. elemandan 8. elemana kadar 2 şer 2 şer atlayarak gider. 
 print(yeni_3)
+yeni_4 = pazar [::-1] #Listeyi tersine çevirir.
+print(yeni_4)
 
 print("6____________")
 esya = [ "sandalye", "masa", "koltuk", "halı", "perde"]
