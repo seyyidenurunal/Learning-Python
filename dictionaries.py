@@ -96,6 +96,10 @@ person[123] = ["deneme", 1 , 2 , 3 ]
 print(person[123])
 
 
+print("11____________") 
+
+print(person.items()) #değer ve anahtarları demetler halinde verir.
+
 
 
 
