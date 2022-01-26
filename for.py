@@ -3,16 +3,16 @@ liste = [ "elma", "armut", "portakal" ]
 print("1____________") 
 for item in liste:  #Liste içerisindeki elemanları tek tek yazmayı sağlar.
     print(item)
-
+    
 print("2____________") 
 sayi = [1, 87, 1, 178, 28, 17, 658, 829]
 
-total=0
+toplam=0
 
-for toplam in sayi:
-   total= total+ toplam
-
-print(total)  #sayi listesinin içindeki sayıların toplamı
+for sayilar in sayi:
+   toplam= toplam + sayilar
+   print("Toplam : {} , Sayı : {}".format(toplam,sayilar))  #sayi listesinin içindeki sayıların toplamı ve sayıyı yazar.
+print("Net Toplam : {}".format(toplam))
 
 print("3____________") 
 for say in sayi:
